@@ -4,4 +4,4 @@ for i in range(100):
         print(99)
         continue
     else:
-        print("{:02d} ,".format(i), end='')
+        print("{:02d}, ".format(i), end='')
