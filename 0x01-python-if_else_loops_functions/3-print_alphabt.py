@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-for i in range(99):
-    print("{:d}{:x}".format(chr(i+97), chr(i+97)), end='')
+for i in range(26):
+    if (chr(i+97) == 'q' or chr(i+97) == 'e'):
+        continue
+    else:
+        print("{}".format(chr(i+97)), end='')
