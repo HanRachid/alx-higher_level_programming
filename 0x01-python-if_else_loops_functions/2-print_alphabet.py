@@ -1,6 +1,3 @@
 #!/usr/bin/python3
-a = "a"
-
-a = a + 1
-
-print(a)
+for i in range(26):
+    print(chr(i+97))
