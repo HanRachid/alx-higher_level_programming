@@ -7,7 +7,7 @@ def add_tuple(tuple_a=(), tuple_b=()):
     i = len(tuple_a)-1
     j = len(tuple_b)-1
 
-    while (i > 2 or j > 2):
+    while (i > 1 or j > 1):
         i -= 1
         j -= 1
 
