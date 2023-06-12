@@ -15,6 +15,8 @@ int is_palindrome(listint_t **head)
 	listint_t *currenthead = *head;
 	int arr[sizeof(head)];
 
+	if (!currenthead)
+		return (0);
 	while (currentfeet != NULL)
 	{
 		arr[headsize] = currentfeet->n;
