@@ -2,3 +2,4 @@
 class Square:
     """ square
     """
+    pass
