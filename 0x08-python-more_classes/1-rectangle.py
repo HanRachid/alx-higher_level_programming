@@ -1,16 +1,17 @@
 #!/usr/bin/python3
-
-""" Module providing an empty definition of a class 'Rectangle'
+""" Provides a class 'Rectangle' to represent a rectangle
 """
 
 
-class Rectangle:
-    """ rectangle
+class Rectangle():
+    """ Definition of a class to represent a rectangle
     """
 
-    def __init__(self, height=0, width=0):
-        self.__width = width
-        self.__height = height
+    def __init__(self, width=0, height=0):
+        """ Instantiate a rectangle
+        """
+        self.height = height
+        self.width = width
 
     @property
     def width(self):
@@ -39,7 +40,7 @@ class Rectangle:
         """ Set the height of a rectangle
         """
         if not isinstance(value, int):
-            raise TypeError("width must be an integer")
+            raise TypeError("height must be an integer")
         if value < 0:
-            raise ValueError("width must be >= 0")
+            raise ValueError("height must be >= 0")
         self.__height = value
