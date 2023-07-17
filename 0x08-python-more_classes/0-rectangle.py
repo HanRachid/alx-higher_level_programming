@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-""" Module providing an empty definition of a class 'Rextangle'
+""" Module providing an empty definition of a class 'Rectangle'
 """
 
 
 class Rectangle:
-    """ square
+    """ rectangle
     """
